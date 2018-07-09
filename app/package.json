@@ -1,0 +1,67 @@
+{
+  "name": "sortable-users",
+  "version": "1.0.0",
+  "description": "Sortable users",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack -d --watch",
+    "start": "npm run build && nodemon ./app/index.js --presets es2015,stage-2,react",
+    "build": "webpack --config webpack.config.js",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "setupFiles": [
+      "./test/jestsetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "author": "Gus Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "7.2.3",
+    "axios": "^0.18.0",
+    "babel-core": "6.26.0",
+    "babel-jest": "23.0.0-alpha.0",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "0.28.7",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "2.0.0",
+    "jest": "22.4.4",
+    "node-sass": "4.7.2",
+    "nodemon": "^1.14.7",
+    "postcss-loader": "2.0.9",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "6.0.6",
+    "serialize-javascript": "1.4.0",
+    "style-loader": "0.19.1",
+    "webpack": "2.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-rewire": "^1.1.0",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "enzyme-to-json": "3.3.4",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "16.3.2",
+    "redux-mock-store": "1.5.1",
+    "webpack-dev-middleware": "2.0.4"
+  }
+}

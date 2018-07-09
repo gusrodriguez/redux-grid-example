@@ -1,0 +1,14 @@
+.user-list-item {
+    cursor: pointer;
+    background: white;
+    color: $row-font-color;
+    padding: 10px;
+    border-bottom: 1px inset #d3cfcf;
+    .icon-delete {
+        text-align: center;
+        z-index: 99;
+    }
+    &:hover {
+        background: $item-hover;
+    }
+}

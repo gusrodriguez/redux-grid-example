@@ -1,0 +1,31 @@
+@import '../styles/variables';
+
+.user-form {
+    width: 80%;
+    margin-top: $form-gutter;
+    margin-bottom: $title-adjust;
+    border: 1px solid white;
+    background: white;
+    border-radius: 4px;
+    .form-row {
+        padding: 10px;
+        margin-top: $form-spacing;
+    }
+    .link {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .alert {
+        display: inline;
+    }
+    .alert-dismissible {
+        position: relative;
+    }
+    .close {
+        /* TODO: remove ugly positionig to the close button */
+        position: absolute;
+        right: 10px;
+        top: 12px;
+    }
+}

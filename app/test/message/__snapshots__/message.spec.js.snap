@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Component renders correctly 1`] = `
+<div
+  className="alert alert-success alert-dismissible"
+>
+  <span
+    aria-label="close"
+    className="close"
+    data-dismiss="alert"
+    onClick={undefined}
+  >
+    ×
+  </span>
+  The new user has been added.
+</div>
+`;

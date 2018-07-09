@@ -1,0 +1,23 @@
+@import '../styles/variables';
+
+.users-list {
+    margin-top: $form-gutter;
+    width: 80%;
+    .header {
+        border: 1px solid $violet;
+        border-radius: 4px;
+        background: $violet;
+        color: $header-font-color;
+        font-weight: 200;
+        padding: 10px 
+    }
+    .icon-delete-header {
+        text-align: center;
+    }
+    .sortable {
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

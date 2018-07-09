@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserForm component tests should render correctly 1`] = `
+<form
+  className="container user-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="row form-row"
+  >
+    <div
+      className="col-md-12"
+    />
+  </div>
+  <div
+    className="row form-row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <input
+        className="form-control"
+        maxLength="50"
+        maxlength="50"
+        name="firstname"
+        pattern="[a-zA-Z0-9]+"
+        placeholder="First name"
+        size="50"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <input
+        className="form-control"
+        maxLength="50"
+        maxlength="50"
+        name="surname"
+        pattern="[a-zA-Z0-9]+"
+        placeholder="Surname"
+        size="50"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="row form-row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <input
+        className="form-control"
+        maxLength="50"
+        name="contact_number"
+        pattern="^[0-9+]*$"
+        placeholder="Contact Number"
+        size="50"
+        type="text"
+      />
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <input
+        className="form-control"
+        maxLength="50"
+        name="email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\\\\.[a-z]{2,4}$"
+        placeholder="Email"
+        size="50"
+        type="email"
+      />
+    </div>
+  </div>
+  <div
+    className="row form-row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <button
+        className="btn btn-primary pull-right"
+        type="submit"
+      >
+        Add
+      </button>
+    </div>
+  </div>
+</form>
+`;

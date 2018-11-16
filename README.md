@@ -1,5 +1,5 @@
 
-# Sortable Users Solution - Take Home Test
+# Redux grid example with SSR
 
 > Technology stack used:
 * React 16

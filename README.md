@@ -6,7 +6,7 @@ An example about how to use redux combined with server side rendering, and how t
 # Why do I want this?
 You actually don't. The project got old :older_man: although some concepts are still useful.
 
-# Technology stack:
+## Technology stack:
 * React 16
 * Redux
 * Babel
@@ -15,46 +15,46 @@ You actually don't. The project got old :older_man: although some concepts are s
 * SASS
 * Jest + Enzyme
 
-# Features
+## Features
 - The application is Server Side Rendered.
 - The app is isomorphic.
 
-# Usage
+## Usage
 
-## Install api
+### Install api
 
 ```js
 cd api
 npm install
 ```
 
-## run api
+### run api
 
 ```js
 npm start
 ```
 
-## Install app
+### Install app
 
 ```js
 cd app
 npm install
 ```
 
-## run app
+### run app
 
 ```js
 npm start
 After the build finishes, navigate to: http://localhost:8081
 ```
 
-## run test
+### run test
 
 ```js
 npm run test
 ```
 
-## run lint
+### run lint
 
 ```js
 npm run lint

@@ -1,10 +1,10 @@
-⛔️ obsolete
+⛔️  obsolete
 
 # What's this?
 An example about how to use redux combined with server side rendering, and how to deal with the store in server and client.
 
 # Why do I want this?
-You actually don't. The project got old :older_man:, although some concepts are still useful.
+You actually don't. The project got old :older_man: although some concepts are still useful.
 
 # Technology stack:
 * React 16
